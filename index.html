@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<title>RenderMan Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <meta name="theme-color" content="#8a8a8a"> -->
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" href="/stylesheets/main.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	</head>
+
+	<body>
+		<header id="header" class="home"></header>
+		<script>$("#header").load("/common/header.html");</script>
+
+		<main>
+			<section id="hero">
+				<iframe id="video" src="https://player.vimeo.com/video/688599992?autoplay=1&color=00a1e4&controls=1&dnt=1&portrait=0&title=0&transparent=0&transcript=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div id="hero-text" class="container">
+					<h1>World's Most Versatile Renderer</h1>
+					<p><a class="button" href="/store/">TRY RENDERMAN FREE</a></p>
+					<button onclick="playVideo()">▶️ PLAY VIDEO</button>
+				</div>
+			</section>
+			<section id="modern">
+				<div class="container">
+					<h2>State of the Art</h2>
+					<p>RenderMan has been Pixar’s core rendering technology for over 30 years, and has been developed to meet the ever-increasing challenges of 3D animation and visual effects.</p>
+				</div>
+				<section id="sections">
+					<a id="pp" href="#production"><p>Production Proven</p></a>
+					<a id="cet" href="#cutting-edge"><p>Cutting-Edge Tools</p></a>
+					<a id="bfc" href="#collaboration"><p>Built for Collaboration</p></a>
+					<a id="dh" href="#digital-humans"><p>Digital Humans</p></a>
+					<a id="rod" href="#cloud"><p>RenderMan on Demand</p></a>
+					<a id="ffc" href="#camera"><p>Fully Featured Camera</p></a>
+				</section>
+			</section>
+			<section id="production">
+				<div class="container">
+					<h3>Production Proven</h3>
+					<p>Not only is RenderMan used for our own feature films at Pixar, it is also used throughout the industry for rendering Visual Effects and animation, making scalability and versatility one of its core strengths.</p>
+					<h4>That's Show Business</h4>
+					<p>Because RenderMan has been used on every kind of production, the software has already been pushed to every extreme, so it's ready to render anything you can throw at it.  Just take a look at some of these movies...</p>
+					<a href="/movies/">See all movies ➡️</a>
+				</div>
+				<section id="movies">
+					<a href="https://www.pixar.com/lightyear/"><img src="/images/movies/lightyear2022.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/luca/"><img src="/images/movies/luca2021.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/onward/"><img src="/images/movies/onward2020.jpg" loading="lazy" /></a>
+					<a href="https://ondisneyplus.disney.com/movie/lady-and-the-tramp/"><img src="/images/movies/ladyandthetramp2019.jpg" loading="lazy" /></a>
+					<a href="https://movies.disney.com/the-lion-king-2019/"><img src="/images/movies/thelionking2019.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/feature-films/incredibles-2/"><img src="/images/movies/incredibles22018.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/feature-films/coco/"><img src="/images/movies/coco2017.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/feature-films/cars-3/"><img src="/images/movies/cars32017.jpg" loading="lazy" /></a>
+					<a href="https://www.warnerbros.com/movies/sully/"><img src="/images/movies/sully2016.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/feature-films/the-good-dinosaur/"><img src="/images/movies/thegooddinosaur2015.jpg" loading="lazy" /></a>
+					<a href="https://www.warnerbros.com/movies/lego-movie/"><img src="/images/movies/thelegomovie2014.jpg" loading="lazy" /></a>
+					<a href="https://movies.disney.com/frozen/"><img src="/images/movies/frozen2013.jpg" loading="lazy" /></a>
+					<a href="https://www.relativitymedia.com/movie/free-birds/"><img src="/images/movies/freebirds2013.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/feature-films/monsters-university/"><img src="/images/movies/monstersuniversity2013.jpg" loading="lazy" /></a>
+					<a href="https://movies.disney.com/wreck-it-ralph/"><img src="/images/movies/wreckitralph2012.jpg" loading="lazy" /></a>
+					<a href="https://www.pixar.com/feature-films/brave/"><img src="/images/movies/brave2012.jpg" loading="lazy" /></a>
+				</section>
+			</section>
+			<section id="cutting-edge" class="bg-img">
+				<div class="container">
+					<div class="wrapper">
+						<h3>Cutting-Edge Tools</h3>
+						<p>RenderMan delivers out-of-box production tools straight from Pixar and ILM, including materials and light transport...no development required.</p>
+						<ul>
+							<li>📷 Photorealistic Images</li>
+							<li>MaterialX Lama</li>
+							<li>🎨 Created for Artists</li>
+							<li>💡 Analytic Physical Lighting</li>
+							<li>Extensive plugin support</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="wrapper">
+						<div class="image">
+							<img src="/images/denoiser-lightyear-before.jpg" loading="lazy" />
+						</div>
+						<div>
+							<h4>Production Denoising</h4>
+							<p>RenderMan ships with a state-of-the-art Denoiser, which uses machine learning and is trained with Pixar datasets, significantly reducing render times.</p>
+						</div>
+					</div>
+					<blockquote>“The new denoiser in 25 is unbelievable. It is going to completely change the way we approach rendering on our films.”</blockquote>
+					<figcaption>—Eric Wachtman - CG Supervisor, LAIKA</figcaption>
+					<div class="wrapper right">
+						<div class="image">
+							<img src="/images/cars-on-the-road.jpg" loading="lazy" />
+						</div>
+						<div>
+							<h4>Limitless Creativity</h4>
+							<p>The innovative Stylized Looks toolset allows RenderMan to deliver images beyond photorealism. Artists can render images that look like cartoons and illustration.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="collaboration" class="bg-img">
+				<div class="container">
+					<div class="wrapper right">
+						<h3>Built for Collaboration</h3>
+						<p>RenderMan ships with the latest open source tools and comprehensive APIs so you can develop complex collaborative environments, for maximum pipeline flexibility.</p>
+						<a href="/bridge-tools/">Read more ➡️</a>
+					</div>
+				</div>
+			</section>
+			<section class="dark">
+				<div class="container">
+					<div class="wrapper right">
+						<div class="image">
+							<img src="/images/toy-story-4-viewport-vs-render.gif" loading="lazy" />
+						</div>
+						<div>
+							<h4>USD</h4>
+							<p>For studios using the latest pipeline tech, RenderMan can render directly to USD Hydra. Learn how Pixar uses USD in our Pipeline.</p>
+							<a href="https://renderman.pixar.com/stories/pixars-usd-pipeline/">Learn more ➡️</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="digital-humans" class="bg-img">
+				<div class="container">
+					<div class="wrapper">
+						<h3>Digital Humans</h3>
+						<p>RenderMan’s subsurface approach significantly increases quality and realism when rendering skin and other soft or delicate materials.</p>
+						<a href="https://renderman.pixar.com/stories/renderman-at-ilm--the-irishman">Read more ➡️</a>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<blockquote>“We can’t wait to see how talented artists everywhere will choose to harness Lama’s potential.”</blockquote>
+					<figcaption>—André Mazzone - Look/Render Engineering Lead, ILM</figcaption>
+					<div class="wrapper right">
+						<div class="image">
+							<img src="/images/teapots-first-iteration-ris-vs-xpu.gif" loading="lazy" />
+						</div>
+						<div>
+							<h4>Resource Agnostic</h4>
+							<p>With RenderMan XPU&TRADE; artists can greatly speed up their look development workflows by harnessing the power of their GPU and can expect perceptually identical results when rendering final frames.</p>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="image">
+							<img src="/images/lightyear-volumes.jpg" loading="lazy" />
+						</div>
+						<div>
+							<h4>Volumes & Particles</h4>
+							<p>Smoke, fire, clouds, dust, OpenVDB... RenderMan can render it better and faster than ever with XPU support.</p>
+						</div>
+					</div>
+					<div class="wrapper right">
+						<div class="image">
+							<img src="/images/checkpointing-card.jpg" loading="lazy" />
+						</div>
+						<div>
+							<h4>Checkpointing</h4>
+							<p>RenderMan has the ability to resume interrupted renders, redefining the animation approval process.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="hair" class="bg-img">
+				<div class="container">
+					<div class="wrapper">
+						<h3>Advanced Hair Shading</h3>
+						<p>RenderMan ships cutting-edge hair and fur materials developed at Pixar Animation Studios.</p>
+					</div>
+				</div>
+			</section>
+			<section class="dark">
+				<div class="container">
+					<div class="wrapper">
+						<div class="image">
+							<img src="/images/onward-teapot-passes.gif" loading="lazy" />
+						</div>
+						<div>
+							<h4>Secondary Passes</h4>
+							<p>RenderMan AOV and LPE passes can be edited interactively, providing artist friendly and robust workflows for compositing.</p>
+						</div>
+					</div>
+					<div class="wrapper right">
+						<div class="image">
+							<img src="/images/integrators-teapot.jpg" loading="lazy" />
+						</div>
+						<div>
+							<h4>Integrators</h4>
+							<p>RenderMan has a unique way of dealing with light transport, by giving artists and developers creative control over camera rays.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="cloud" class="bg-img">
+				<div class="container">
+					<div class="wrapper">
+						<h3>RenderMan on Demand</h3>
+						<p>RenderMan can be used seamlessly with the leading Cloud Rendering solutions, providing extraordinary burst capacity. Read more to learn about how Milk VFX rendered 77 million 4K frames.</p>
+						<a href="https://renderman.pixar.com/stories/dinosaurs-in-the-wild-at-milk">Read more ➡️</a>
+					</div>
+				</div>
+			</section>
+			<section id="camera" class="bg-img">
+				<div class="container">
+					<div class="wrapper right">
+						<h3>Fully Featured Camera</h3>
+						<p>RenderMan's motion blur and depth-of-field can mimic the behavior of real-world cameras, so RenderMan's synthetic images can realistically simulate their conventionally filmed counterparts.</p>
+					</div>
+				</div>
+			</section>
+			<section id="tractor" class="bg-img">
+				<div class="container">
+					<div class="wrapper right">
+						<h3>Render Management</h3>
+						<p>Included with every purchase of RenderMan, Tractor is a modern and robust solution for network rendering, currently deployed at some of the biggest VFX studios in the industry.</p>
+						<a href="/tractor/">Learn more ➡️</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id="footer"></footer>
+		<script>$("#footer").load("/common/footer.html");</script>
+		<script src="https://player.vimeo.com/api/player.js"></script>
+		<script src="/scripts/main.js"></script>
+		<script>var video = document.getElementById("video");
+			var heroTxt = document.getElementById("hero-text");
+			var player = new Vimeo.Player(video);
+			function playVideo() {
+		    heroTxt.classList.add("hide");
+			video.classList.add("show");
+			player.play();
+		}</script>
+	</body>
+
+</html>
