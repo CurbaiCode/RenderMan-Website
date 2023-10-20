@@ -594,8 +594,8 @@ figure {
     display: inline-block;
     height: 24px;
     margin: 10px 0 26px;
-    -webkit-mask: url("/RenderMan-Website/images/pixar.svg") center/contain no-repeat;
-    mask: url("/RenderMan-Website/images/pixar.svg") center/contain no-repeat;
+    -webkit-mask: url("/renderman-site/images/pixar.svg") center/contain no-repeat;
+    mask: url("/renderman-site/images/pixar.svg") center/contain no-repeat;
     width: 100%;
 }
 
@@ -613,11 +613,11 @@ figure {
 }
 
 .renderman {
-    background: url("/RenderMan-Website/images/renderman.svg") center/contain no-repeat;
+    background: url("/renderman-site/images/renderman.svg") center/contain no-repeat;
 }
 
 #user {
-    background: url("/RenderMan-Website/images/user.svg") center/contain no-repeat;
+    background: url("/renderman-site/images/user.svg") center/contain no-repeat;
 }
 
 .renderman-mono,
@@ -627,13 +627,13 @@ figure {
 }
 
 .renderman-mono {
-    -webkit-mask: url("/RenderMan-Website/images/renderman-mono.svg") center/contain no-repeat;
-    mask: url("/RenderMan-Website/images/renderman-mono.svg") center/contain no-repeat;
+    -webkit-mask: url("/renderman-site/images/renderman-mono.svg") center/contain no-repeat;
+    mask: url("/renderman-site/images/renderman-mono.svg") center/contain no-repeat;
 }
 
 #user-mono {
-    -webkit-mask: url("/RenderMan-Website/images/user-mono.svg") center/contain no-repeat;
-    mask: url("/RenderMan-Website/images/user-mono.svg") center/contain no-repeat;
+    -webkit-mask: url("/renderman-site/images/user-mono.svg") center/contain no-repeat;
+    mask: url("/renderman-site/images/user-mono.svg") center/contain no-repeat;
 }
 
 #menu.open .renderman,
@@ -660,7 +660,7 @@ figure {
 }
 
 #hero {
-    background: #22212b url("/RenderMan-Website/images/hero.jpg") center/cover no-repeat;
+    background: #22212b url("/renderman-site/images/hero.jpg") center/cover no-repeat;
     color: #fff;
     height: 100vh;
     padding: 0;
@@ -737,7 +737,7 @@ figure {
 }
 
 #sections #pp {
-    background: #836c5c url("/RenderMan-Website/images/the-lion-king.jpg") center/cover no-repeat;
+    background: #836c5c url("/renderman-site/images/the-lion-king.jpg") center/cover no-repeat;
 }
 
 #sections #pp p {
@@ -745,7 +745,7 @@ figure {
 }
 
 #sections #cet {
-    background: #49779c url("/RenderMan-Website/images/wall-e.jpg") top/cover no-repeat;
+    background: #49779c url("/renderman-site/images/wall-e.jpg") top/cover no-repeat;
 }
 
 #sections #cet p {
@@ -753,7 +753,7 @@ figure {
 }
 
 #sections #dh {
-    background: #2e3b4c url("/RenderMan-Website/images/the-irishman.jpg") right top/cover no-repeat;
+    background: #2e3b4c url("/renderman-site/images/the-irishman.jpg") right top/cover no-repeat;
 }
 
 #sections #dh p {
@@ -761,7 +761,7 @@ figure {
 }
 
 #sections #rod {
-    background: #505438 url("/RenderMan-Website/images/dinosaurs-in-the-wild.jpg") center/cover no-repeat;
+    background: #505438 url("/renderman-site/images/dinosaurs-in-the-wild.jpg") center/cover no-repeat;
 }
 
 #sections #rod p {
@@ -769,7 +769,7 @@ figure {
 }
 
 #sections #bfc {
-    background: #9aa9b4 url("/RenderMan-Website/images/toy-story.jpg") center/cover no-repeat;
+    background: #9aa9b4 url("/renderman-site/images/toy-story.jpg") center/cover no-repeat;
 }
 
 #sections #bfc p {
@@ -777,7 +777,7 @@ figure {
 }
 
 #sections #ffc {
-    background: #949ca8 url("/RenderMan-Website/images/up.jpg") center/cover no-repeat;
+    background: #949ca8 url("/renderman-site/images/up.jpg") center/cover no-repeat;
 }
 
 #sections #ffc p {
@@ -1013,31 +1013,31 @@ img {
 }
 
 #cutting-edge {
-    background: #4b403d url("/RenderMan-Website/images/elemental.jpg") left/cover no-repeat;
+    background: #4b403d url("/renderman-site/images/elemental.jpg") left/cover no-repeat;
 }
 
 #collaboration {
-    background: #3f342d url("/RenderMan-Website/images/lightyear.jpg") center/cover no-repeat;
+    background: #3f342d url("/renderman-site/images/lightyear.jpg") center/cover no-repeat;
 }
 
 #digital-humans {
-    background: #2e3b4c url("/RenderMan-Website/images/the-irishman.jpg") top/cover no-repeat;
+    background: #2e3b4c url("/renderman-site/images/the-irishman.jpg") top/cover no-repeat;
 }
 
 #hair {
-    background: #534642 url("/RenderMan-Website/images/incredibles2.jpg") top/cover no-repeat;
+    background: #534642 url("/renderman-site/images/incredibles2.jpg") top/cover no-repeat;
 }
 
 #cloud {
-    background: #505438 url("/RenderMan-Website/images/dinosaurs-in-the-wild.jpg") center/cover no-repeat;
+    background: #505438 url("/renderman-site/images/dinosaurs-in-the-wild.jpg") center/cover no-repeat;
 }
 
 #camera {
-    background: #352318 url("/RenderMan-Website/images/lost-ollie.jpg") center/cover no-repeat;
+    background: #352318 url("/renderman-site/images/lost-ollie.jpg") center/cover no-repeat;
 }
 
 #tractor {
-    background: #63a3b2 url("/RenderMan-Website/images/denoiser.jpg") center/cover no-repeat;
+    background: #63a3b2 url("/renderman-site/images/denoiser.jpg") center/cover no-repeat;
 }
 
 #user-profile {
